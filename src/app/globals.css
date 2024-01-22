@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-gradient {
+    --tw-gradient-from: #00616c;
+    --tw-gradient-to: rgba(0,97,108,0);
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #00e5ff;
+}
